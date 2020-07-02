@@ -1,0 +1,169 @@
+*{
+	padding: 0;
+	margin:0;
+}
+button.btn.btn-outline-secondary.my-2.my-sm-0 {
+    border-radius: 30px;
+    border-color: white;
+    color: white;
+    background: transparent;
+    font-family: 'Oswald',sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+button.btn.btn-outline-secondary.my-2.my-sm-0:hover {
+    background: white;
+    color: #ec6952;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.slide{
+	padding-top: 40px;
+}
+.menu{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+.header .navbar .menu .menutop{
+	margin-right: 25px;
+	box-shadow: 2px 
+}
+.header .navbar .menu ul li a.nav-link{
+	color: white;
+	font-family: 'Oswald',sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+}
+.header .navbar {
+	background-color: #ec6952;
+}
+.noidung h2.sanpham{
+	border-bottom: 2px solid #ec6952;
+	font-family: 'Oswald',sans-serif;
+	color: #ec6952;
+}
+.noidung .card .card-body a.tdsp{
+	text-decoration: none;
+	color: black;
+	font-family: 'Bai Jamjuree', sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+}
+.tieude{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+
+}
+.otimkiem .timkiem{
+	border-radius: 20px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 200;
+	font-size: 17px;
+}
+.sanpham {
+	background-color: white;
+	font-family: 'Oswald',sans-serif;
+	font-weight: 400;
+}
+.sanpham .khungsp{
+	border-style: none;
+	margin-left: 40px;
+}
+.sanpham .danhgia{
+	display: inline-block;
+	text-decoration: none;
+}
+.sanpham .danhgia1{
+	text-decoration: underline;
+}
+.sanpham ul li{	
+	line-height: 60px;
+	padding: 0 30px 0 30px;
+	display: block;
+	float: left;
+	border-right: 1px solid #a5a5a5;
+}
+.sanpham .giatien {
+	margin-top: 20px;
+	left: 19px;
+	z-index: 5;
+	font-weight: bold;
+}
+.sanpham .giohang {
+	margin: 20px 0px 0px 0px;
+}
+.sanpham .giohang .nut{
+	background-color: #ec6952;
+	color: white;
+    padding: 15px 15px;
+    border-radius: 0;
+    border-color: transparent;
+    font-family: 'Oswald',sans-serif;
+    font-size: 15px;
+    margin: 0px 10px 0px 0px;
+}
+.sanpham .giohang .nut:hover{
+	box-shadow: 2px 2px 10px #666;
+	background-color: white;
+	color: #ec6952;
+}
+.giohang button{
+	background-color: #ec6952;
+	color: white;
+}
+h4{
+	background: #ebebeb;
+    color: rgba(0,0,0,.87);
+    font-family: initial;
+    padding: 2rem;
+}
+.footer{
+	background-color: #ec6952;
+	width: 100%;
+	height: 250px;
+	margin-top: 50px;
+}
+.footer img{
+	position: fixed;
+	bottom:20px;
+	right: 20px;
+	width: 30px;
+	height: 30px;
+}
+.footer img:hover{
+	background: white;
+    border: 1px solid #ec6952;
+    color: #ec6952;
+    box-shadow: 2px 2px 10px #666;
+}
+.footer .lienhe{
+	padding-top: 45px;
+}
+.footer .lienhe b{
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+}
+.footer .lienhe a{
+	text-decoration: none;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+.footer .lienhe a:hover{
+	color: #edff08;
+	transform: 
+}
+.footer .copyright{
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	padding-top: 50px;
+}
+.sanpham{
+	margin-top: 200px;
+}

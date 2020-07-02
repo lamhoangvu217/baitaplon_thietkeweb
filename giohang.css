@@ -1,0 +1,110 @@
+*{
+	padding: 0;
+	margin:0;
+}
+button.btn.btn-outline-secondary.my-2.my-sm-0 {
+    border-radius: 30px;
+    border-color: white;
+    color: white;
+    background: transparent;
+    font-family: 'Oswald',sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+button.btn.btn-outline-secondary.my-2.my-sm-0:hover {
+    background: white;
+    color: #ec6952;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.slide{
+	padding-top: 40px;
+}
+.menu{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+.header .navbar .menu .menutop{
+	margin-right: 25px;
+}
+.header .navbar .menu ul li a.nav-link{
+	color: white;
+	font-family: 'Oswald',sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+}
+.header .navbar {
+	background-color: #ec6952;
+}
+.noidung h2.sanpham{
+	border-bottom: 2px solid gray;
+}
+.noidung .card .card-body a.tdsp{
+	text-decoration: none;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+}
+.tieude{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+
+}
+.otimkiem .timkiem{
+	border-radius: 20px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 200;
+	font-size: 17px;
+}
+.giohang{
+	margin-top: 200px;
+}
+.giohang .sp{
+	color: #ec6952;
+}
+.giohang .text{
+	float: right;
+	margin: 
+}
+.giohang .text ul li{
+	display: inline;
+	list-style: none;
+	float: left;
+	padding: 0px 20px 0px 0px;
+}
+.giohang .giatien{
+	font-size: 25px;
+	color: #ec6952;
+	margin-top: -7px;
+}
+.giohang .VAT{
+	font-size: 12px;
+	margin-top: 2px;
+	display: block;
+}
+.giohang .thanhtoan{
+	padding: 2px;
+	border-radius: 0px;	
+}
+.giohang .thanhtoan a{
+	text-decoration: none;
+	color: #ec6952;
+	transition: 0.3s;
+}
+.giohang .thanhtoan a:hover{
+	color: white;
+}
+.giohang .voucher{
+	margin-top: 10px;
+}
+.giohang .code{
+	font-size: 16px;
+	border-color: #ec6952;	
+	float: left;
+}
+.giohang .nut{
+	padding: 2px 2px 2px 2px;
+	margin: 0px 0px 0px 5px;
+}

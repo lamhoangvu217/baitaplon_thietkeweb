@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Thông tin sản phẩm</title>
+	<meta name="viewport" content="width=device">
+	<link rel="stylesheet" href="stylesp.css">
+    <link rel="stylesheet" href="1.css">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist\css\bootstrap.css">
+    <link rel="stylesheet" href="fontawesome-free-5.10.2-web\css\all.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap&subset=vietnamese" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,400,500,600,700&display=swap&subset=vietnamese" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap&subset=vietnamese" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree:300,300i,400,500,600&display=swap&subset=vietnamese" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="header">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+              <a class="navbar-brand logo" href="#"><img src="logo1.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+              <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto menutop">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Trang chủ<span class="sr-only">(current)</span></a>
+                  </li>       
+                  <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Danh mục
+                    </a>
+                    <div class="dropdown-menu thanhthaxuong" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="dogiadung.html">Đồ gia dụng</a>
+                              
+                      <a class="dropdown-item" href="mevabe.html">Mẹ và bé</a>
+
+                    </div>
+                  </li> 
+                  <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Liên hệ</a>
+                  </li> 
+                  <li class="nav-item active">
+                    <a class="nav-link" href="about.html">Về chúng tôi</a>
+                  </li> 
+                  <li class="nav-item active">
+                    <a class="nav-link" href="signin.html">Đăng nhập</a>
+                  </li> 
+                <li class="nav-item active">
+                    <a class="nav-link" href="signup.html">Đăng ký</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="giohang.html">Xem giỏ hàng</a>
+                </li>             
+                </ul>
+                <form class="form-inline my-2 my-lg-0 otimkiem">
+                  <input class="form-control mr-sm-2 timkiem" type="search" placeholder="Bạn muốn tìm gì" aria-label="Search">
+                  <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Tìm kiếm</button>
+                </form>
+                
+              </div>
+            </nav>  
+</div><!--  het header -->
+    <div class="sanpham">
+    	<div class="container">
+	    	<div class="row" >
+	    		<div class="col-md-4">
+	    			<img src="sanpham/bo-4-noi-inox-fivestar-02_large.jpg" alt="" width="400px" height="350px">
+	    		</div>
+	    		<div class="col-md-8">
+	    			<div class="card khungsp" style="width: 100%;border: none;">
+					   
+					    <div class="card-body">
+					        <h2 class="card-title">Bộ ba thổ sứ tráng men đa năng</h2>
+					        <ul class="danhgia" style="list-style-type: none;">
+					        	<li><b>2019</b> Đánh giá</li>
+					        	<li><b>2,9k</b> Đã bán</li>
+					        </ul>
+					    	<div class="vanchuyen">
+					    		<div class="vanchuyen1"><img src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/9d21899f3344277e34d40bfc08f60bc7.png" width="25" height="15"><b>Miễn Phí Vận Chuyển</b></div>
+					        <div class="giatien">
+	                            <p>350.000đ <del>500.000đ</del></p>
+	                        </div>
+	                        <div class="giohang">
+	                        	<button type="button" class="btn btn-primary mt-2 nut">
+	                        		<i class="fas fa-cart-plus" onclick="alert('Thêm vào giỏ hàng thành công!')"> Thêm vào giỏ hàng</i>
+	                        	</button>
+	                        	<button type="button" class="btn btn-primary mt-2 nut" onclick="alert('Thêm vào giỏ hàng thành công!')"><span>Mua hàng</span></button>
+	                        </div>
+	    				</div>
+					</div>
+	    		</div>
+	    	</div>
+	    </div>
+    </div>
+    <div class="ttsanpham">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col">
+    				<h4>CHI TIẾT SẢN  PHẨM</h4>
+    				<p class="text">
+    						📣📣📣📣 Cây lau nhà đã kèm bông lau rồi nhé.<br>
+							DO CHẠY CTKM NÊN CÂY LAU NHÀ PP1 SHOP SẼ GIAO MÀU<br> NGẪU NHIÊN Ạ<br>
+							HƯỚNG DẪN SỬ DỤNG : CÁC BẠN XEM HẾT HÌNH ẢNH ĐỂ LÀM<br> THEO HƯỚNG DẪN NHÉ ( TRÁNH TÌNH TRẠNG LÀM KHÔNG ĐƯỢC Ạ )<br>
+							* Xuất xứ : Việt Nam<br>
+							* Chiều dài : từ 110 đến 120cm<br>
+							* Sản phẩm đã bao gồm bông lau<br>
+							* Cây lau nhà được sản xuất và thiết kế bởi Gia Phú<br> 
+							* Mua số lượng lớn vui lòng gọi điện trực tiếp hoặc chat với shop nhé<br>
+
+							<b>#caylaunha #caylaunha360do  #homeeasy #bonglaunha #bolaunhathailan360  #caylaunhagiasi #sanphamhot<br></b>
+					</p>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+   <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <div class="lienhe">
+                    <b>Liên hệ</b><br>
+                    <a href="#">Facebook</a><br>
+                    <a href="#">Twitter</a><br>
+                    <a href="#">Snapchat</a>
+                </div>              
+            </div>
+            <div class="col-3">
+                <div class="vechungtoi">
+                    <b>Về chúng tôi</b>
+                    <p>Vũ Hoàng Lâm</p>
+                    <p>Nguyễn Văn Linh</p>
+                    <p>Đinh Văn Sơn</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="danhmucfooter">
+                    <b>Danh mục</b><br>
+                    <a href="dogiadung.html">Đồ gia dụng</a><br>
+                    <a href="mevabe.html">Mẹ và bé</a><br>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="tbaomoi">
+                <h1>Nhập email để nhận tin mới</h1><br>
+                <input class="form-control mr-sm-2 emailtbaomoi" type="search" placeholder="Nhập email của bạn" aria-label="Search">
+                </div>              
+            </div>
+        </div>
+    </div><!-- het container  -->
+    <a href="#" align="right"><img align="right" src="scroll.jpg"></a>
+</div> <!-- het footer -->
+</body>
+</html>

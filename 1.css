@@ -1,0 +1,381 @@
+*{
+	padding: 0;
+	margin:0;
+}
+
+button.btn.btn-outline-secondary.my-2.my-sm-0 {
+    border-radius: 0px;
+    border-color: white;
+    color: white;
+    background: transparent;
+    font-family: 'Oswald',sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+.logo img{
+	width: 187px;
+	height: 54px;
+} 
+button.btn.btn-outline-secondary.my-2.my-sm-0:hover {
+    background: white;
+    color: #ec6952;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.slide{
+	padding-top: 36px;
+}
+.menu{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+.header .navbar .menu .menutop{
+	margin-right: 25px;
+	box-shadow: 2px 
+}
+.header .navbar .menu ul li a.nav-link{
+	color: white;
+	font-family: 'Oswald',sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+}
+.header .navbar {
+	background-color: #ec6952;
+}
+.noidung h2.sanpham{
+	border-bottom: 2px solid #ec6952;
+	font-family: 'Oswald',sans-serif;
+	color: #ec6952;
+}
+.noidung .card .card-body a.tdsp{
+	text-decoration: none;
+	color: black;
+	font-family: 'Bai Jamjuree', sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+}
+.tieude{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+
+}
+.otimkiem .timkiem{
+	border-radius: 0px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 200;
+	font-size: 17px;
+	border-style: none;
+}
+.noidung .card a.nut{
+	background-color: #ec6952;
+	color: white;
+	padding: 15px 15px;
+	border-radius: 0;
+	border-color: transparent;
+	font-family: 'Oswald',sans-serif;
+	font-size: 15px;
+	transition: 0.3s;
+}
+a.btn.btn-primary.mt-2.nut:hover {
+    background: white;
+    color: #ec6952;
+    border: 1px solid #ec6952;
+    box-shadow: 5px 5px 10px;
+}
+.noidung .tieude a.float-right.xemthem {
+    margin-top: 59px;
+    background-color:  #ec6952;
+    border-radius: 0;
+	border-color: transparent;
+	margin-bottom: 15px;
+}
+
+.noidung .tieude a.float-right.xemthem:hover {
+    background: white;
+    border: 1px solid #ec6952;
+    color: #ec6952;
+}
+.noidung .icon a.nho{
+	background-color: #eee;
+	color: #414141;
+	padding: 17px;
+	transition: 0.4s;
+	width: 50px;
+	height: 50px;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+.noidung .icon a.nho:hover{
+	color: white;
+	background-color: #ec6952;
+}
+.noidung .bentren{
+	position: relative;
+}
+.noidung .bentren .layer1{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+.noidung .bentren .nen{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	width: 255px;
+	height: 406px;
+	background-color: rgba(255,255,255,0.4);
+	opacity: 0;
+	transition: 0.4s;
+}
+.noidung .bentren:hover .nen{
+	opacity: 1;
+}
+.noidung .bentren .icon{
+	position: absolute;
+	top: 120px;
+	left: 0px;
+	z-index: 3;
+	width: 255px;
+	height: 30px;
+	text-align: center;
+	transition: 0.2s;
+	transform: scale(0);
+}
+.noidung .bentren:hover .icon{
+	transform: scale(1);
+}
+.noidung .bentren .tdanh{
+	position: absolute;
+	top: 253px;
+	left: 0px;
+	z-index: 4;
+}
+.noidung .bentren .giatien{
+	position: absolute;
+	top: 333px;
+	left: 19px;
+	z-index: 5;
+	font-weight: bold;
+}
+.noidung .bentren .nut{
+	position: absolute;
+	top: 370px;
+	left: 18px;
+	z-index: 6;
+}
+.header .navbar .menu .thanhthaxuong{
+	background-color: #ec6952;
+	color: white;
+	border-radius: 0px;
+	border-style: none;
+}
+.header .navbar .menu .thanhthaxuong a{
+	color: white;
+	font-family: 'Oswald',sans-serif;
+	font-weight: 400;
+}
+.footer{
+	background-color: #ec6952;
+	width: 100%;
+	height: 250px;
+	margin-top: 600px;
+}
+.footer img{
+	position: fixed;
+	bottom:20px;
+	right: 20px;
+	width: 50px;
+	height: 50px;
+}
+.footer img:hover{
+	background: white;
+    border: 1px solid #ec6952;
+    color: #ec6952;
+}
+.footer .lienhe{
+	padding-top: 45px;
+}
+.footer .lienhe b{
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+}
+.footer .lienhe a{
+	text-decoration: none;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 200;
+}
+.footer .vechungtoi{
+	padding-top: 45px;
+}
+.footer .vechungtoi b{
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+}
+.footer .vechungtoi p{
+	color: white;
+	margin-left: 3px;
+	font-family: 'Oswald',sans-serif;
+	font-weight: 200;
+}
+.footer .danhmucfooter{
+	padding-top: 45px;
+}
+.footer .danhmucfooter b{
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+}
+.footer .danhmucfooter a{
+	text-decoration: none;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 200;
+}
+.footer .danhmucfooter a:hover{
+	color: yellow;
+}
+.footer .lienhe a:hover{
+	color: #edff08;
+}
+.footer .copyright{
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	padding-top: 50px;
+}
+.slide a.nutslide{
+	background-color: transparent;
+	height: 93px;
+	width: 81px;
+	margin-top: 270px;
+}
+
+.slide a.nutslide:hover {
+    background-color: #ec6952;
+}
+.dogiadung{
+	margin-bottom: 400px;
+}
+.noidung .bentren .giatien p{
+	color: #ec6952;
+	line-height: normal;
+	font-family: 'Bai Jamjuree',sans-serif;
+	font-style: italic;
+}
+.noidung .bentren .giatien del.giagoc{
+	margin-left: 15px;
+}
+.tinhnang i.doitra{
+	color: green;
+}
+.tinhnang i.freeship{
+	color: orange;
+}
+.tinhnang i.fastship{
+	color: purple;
+}
+.tinhnang i.highrec{
+	color: red;
+}
+.about{
+	padding-top: 200px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+.about .tdabout{
+	font-size: 64px;
+	font-family: 'Oswald',sans-serif;
+	font-weight: 600;
+}
+.about .chuthanhvien{
+	margin-top: 20px;
+	font-family: 'Oswald',sans-serif;
+	font-weight: 400;
+}
+.thanhvien {
+	padding-top: 100px;
+	margin-bottom: -383px;
+}
+.thanhvien img.thanhvien2{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+.thanhvien img.thanhvien1{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin-top: 100px;
+}
+.thanhvien .tenthanhvien{
+	margin-top: 30px;
+	font-family: 'Oswald',sans-serif;
+	font-size: 30px;
+}
+.noidung .dogiadung{
+	margin-top: 0px;
+}
+.noidung .tieude{
+	margin-top: 81px;
+}
+.noidung .mevabe{
+	margin-top: 0px;
+}
+.footer .tbaomoi{
+	padding-top: 59px;
+}
+.footer .tbaomoi h1{
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: -9px;
+}
+.footer .tbaomoi .emailtbaomoi{
+	border-radius: 0px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 200;
+	font-size: 17px;
+	border-style: none;
+}
+.dongchuchay{
+	margin-top: 80px;
+	margin-bottom: -79px;
+}
+.contact-section .form .btn-floating {
+    left: 3px;
+}
+.contact{
+    margin-top: 150px;
+}
+.contact ul.thongtinlienhe{
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+@media only screen and (min-width: 500px){
+	body,html{
+		width: 100%;
+		overflow-x: hidden;
+	}		
+	/*.header .navbar .navbar-toggler .navbar-toggler-icon{
+		
+	}*/
+	.noidung .icon a.nho{
+		display: none;
+	}
+	.noidung .dogiadung .chiacot{
+	margin-bottom: 20px;
+    }
+}
